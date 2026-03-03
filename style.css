@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px 15px;
+}
+
+.container {
+  background: #ffffff;
+  width: 600px;
+  max-width: 100%;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+input {
+  width: 80%;
+  max-width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+button {
+  padding: 8px 20px;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+.result-box {
+  margin-top: 20px;
+  background: #f7f9fc;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h3 {
+  margin: 6px 0;
+  color: #444;
+  font-size: 16px;
+}
+
+canvas {
+  margin-top: 25px;
+  max-width: 100%;
+}
+
+/* ========================= */
+/* 📱 Mobile Responsive */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px 10px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  input {
+    width: 100%;
+    font-size: 13px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+}
+
+/* ========================= */
+/* 📲 Small Mobile */
+/* ========================= */
+
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  canvas {
+    height: 250px !important;
+  }
+
+}
